@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(110.1deg, rgb(186, 187, 186) 2.9%, rgb(240, 241, 238) 90.3%);
+}
+
+header {
+    background-color: rgb(22, 24, 69);
+    color: white;
+    padding: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background: radial-gradient(circle at 50.4% 50.5%, rgb(251, 32, 86) 0%, rgb(135, 2, 35) 90%);
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+nav a {
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color:#000000;
+    
+}
+
+nav a.active {
+    background-color: #004cff;
+}
+
+nav a:hover {
+    background: radial-gradient(859px at 7.5% 18%, rgb(0, 204, 255) 4.2%, rgb(174, 180, 176) 92.7%);
+    color: black;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    
+    
+}
+
+.contact-info{
+    text-align: center;
+    background: linear-gradient(109.5deg, rgb(13, 11, 136) 9.4%, rgb(86, 255, 248) 78.4%);
+}
+
